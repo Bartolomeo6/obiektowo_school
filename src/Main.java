@@ -39,6 +39,8 @@ public class Main {
         Nauczyciel nauczyciel2 = new Nauczyciel("Franciszek",20,"język chiński");
         System.out.println(nauczyciel2);
 
+        System.out.println("--------------------------------");
+
         // ------------------------------------------------ //
 
         Klasa klasa2p = new Klasa("Klasa P",uczen,uczen2);
@@ -54,9 +56,12 @@ public class Main {
         System.out.println(klasa3p);
         System.out.println(klasa4p);
 
-
+        System.out.println("--------------------------------");
 
         // ------------------------------------------------ //
+
+        Nauczyciel wychowawca = new Wychowawca("Krystyna",55,klasa3p,"język polski");
+        System.out.println(wychowawca);
     }
 
 }
