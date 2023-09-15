@@ -7,6 +7,8 @@ public class Main {
         osoba.setImie("Jas");
         osoba.setWiek(-12);
 
+        System.out.println("--------------------------------");
+
         // ------------------------------------------------------------ //
 
         System.out.println(osoba.getImie());
@@ -27,7 +29,15 @@ public class Main {
 
         System.out.println("Liczba uczniów: "+Uczen.liczbaUcz);
 
+        System.out.println("--------------------------------");
 
+        // ------------------------------------------------ //
+
+        Nauczyciel nauczyciel = new Nauczyciel("Vincent",30,"wf","matematyka");
+        System.out.println(nauczyciel);
+
+        Nauczyciel nauczyciel2 = new Nauczyciel("Franciszek",20,"język chiński");
+        System.out.println(nauczyciel2);
 
     }
 
