@@ -62,6 +62,9 @@ public class Main {
 
         Nauczyciel wychowawca = new Wychowawca("Krystyna",55,klasa3p,"język polski");
         System.out.println(wychowawca);
+
+        wychowawca.dyżuruj();
+        uczen2.dyżuruj();
     }
 
 }

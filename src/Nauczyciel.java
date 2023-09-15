@@ -1,6 +1,6 @@
 import java.util.ArrayList;
 
-public sealed class Nauczyciel extends Osoba permits Wychowawca {
+public sealed class Nauczyciel extends Osoba implements Dyżurny permits Wychowawca {
     private ArrayList<String> przedmioty = new ArrayList<>();
 
     public Nauczyciel(String imie, int wiek, String przedmiot) {
@@ -25,5 +25,10 @@ public sealed class Nauczyciel extends Osoba permits Wychowawca {
         return "Nauczyciel{" + super.toString() +
                 "przedmioty=" + przedmioty +
                 "} ";
+    }
+
+    @Override
+    public void dyżuruj() {
+        System.out.println("Spacer po korytarzu");
     }
 }

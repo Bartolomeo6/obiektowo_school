@@ -1,4 +1,4 @@
-public class Uczen extends Osoba {
+public class Uczen extends Osoba implements Dyżurny {
 
     private int nrUczen;
     public static int liczbaUcz;
@@ -22,5 +22,10 @@ public class Uczen extends Osoba {
                 "} " + super.toString();
 
         //super.toString() -> wywołanie toString z klasy bazowej
+    }
+
+    @Override
+    public void dyżuruj() {
+        System.out.println("Zmazywanie tablicy");
     }
 }
