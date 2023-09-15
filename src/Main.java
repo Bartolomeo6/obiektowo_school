@@ -14,6 +14,9 @@ public class Main {
 
         Uczen uczen = new Uczen("Bożydar",7,1235);
         System.out.println(uczen);
+
+
+
     }
 
 }
