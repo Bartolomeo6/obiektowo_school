@@ -15,6 +15,18 @@ public class Main {
         Uczen uczen = new Uczen("Bożydar",7,1235);
         System.out.println(uczen);
 
+        System.out.println("Liczba uczniów: "+Uczen.liczbaUcz);
+
+        Uczen uczen2 = new Uczen("Ksawery",8);
+        System.out.println(uczen2);
+
+        System.out.println("Liczba uczniów: "+Uczen.liczbaUcz);
+
+        Uczen uczen3 = new Uczen("Zygmunt",10);
+        System.out.println(uczen);
+
+        System.out.println("Liczba uczniów: "+Uczen.liczbaUcz);
+
 
 
     }
