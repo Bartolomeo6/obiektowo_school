@@ -4,6 +4,10 @@ public class Osoba {
 
     //hermetyzacja
 
+    public Osoba() {
+
+    }
+
     public Osoba(String imie) {
         this.imie = imie;
         this.wiek = 7;
@@ -24,10 +28,14 @@ public class Osoba {
         return wiek;
     }
 
+    public void setImie(String imie) {
+        this.imie = imie;
+    }
+
     public void setWiek(int wiek) {
 
         if(wiek < 0)
-            this.wiek = wiek;
+            this.wiek = 0;
 
         else
             this.wiek = wiek;
