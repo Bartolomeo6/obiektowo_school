@@ -65,6 +65,9 @@ public class Main {
 
         wychowawca.dyżuruj();
         uczen2.dyżuruj();
+
+        Szkoła zs10 = Szkoła.getSzkola("ZS10");
+        System.out.println(zs10);
     }
 
 }
